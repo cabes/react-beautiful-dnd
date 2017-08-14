@@ -3,6 +3,7 @@
 Beautiful, accessible drag and drop for lists with [React.js](https://facebook.github.io/react/)
 
 [![Build Status](https://travis-ci.org/atlassian/react-beautiful-dnd.svg?branch=master)](https://travis-ci.org/atlassian/react-beautiful-dnd) [![dependencies](https://david-dm.org/atlassian/react-beautiful-dnd.svg)](https://david-dm.org/atlassian/react-beautiful-dnd) [![SemVer](https://img.shields.io/badge/SemVer-2.0.0-brightgreen.svg)](http://semver.org/spec/v2.0.0.html)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fcabes%2Freact-beautiful-dnd.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fcabes%2Freact-beautiful-dnd?ref=badge_shield)
 
 ![example](https://raw.githubusercontent.com/alexreardon/files/master/resources/dnd.small.gif?raw=true)
 
@@ -846,3 +847,6 @@ Currently mobile is not supported. However, there are plans to add touch support
 ## Author / maintainer
 
 Alex Reardon - [@alexandereardon](https://twitter.com/alexandereardon) - areardon@atlassian.com
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fcabes%2Freact-beautiful-dnd.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fcabes%2Freact-beautiful-dnd?ref=badge_large)
