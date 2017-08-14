@@ -123,9 +123,12 @@ export type DragState = {|
   impact: DragImpact,
 |}
 
+export type DropType = 'DROP' | 'CANCEL';
+
 export type PendingDrop = {|
+  type: DropType,
   newHomeOffset: Position,
-  last: DragState,
+  impact: DragImpact,
   result: DropResult,
 |}
 
@@ -149,6 +152,8 @@ export type State = {
   dimension: DimensionState,
   // null if not dragging
   drag: ?DragState,
+
+  // available when dropping or cancelling
   drop: ?DropState,
 };
 

@@ -70,7 +70,7 @@ export const makeSelector = () => {
           return getMapProps(false);
         }
 
-        const isDraggingOver = getIsDraggingOver(id, pending.last.impact.destination);
+        const isDraggingOver = getIsDraggingOver(id, pending.impact.destination);
         return getMapProps(isDraggingOver);
       }
 
